@@ -1,6 +1,4 @@
-package com.supersoft.comm;
-
-import com.alibaba.fastjson.JSONObject;
+package com.supersoft.comm.config;
 
 /**
  * @author guanjunpu

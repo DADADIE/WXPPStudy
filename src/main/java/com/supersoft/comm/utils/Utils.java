@@ -1,4 +1,4 @@
-package com.supersoft.comm;
+package com.supersoft.comm.utils;
 
 import java.io.Closeable;
 import java.io.IOException;

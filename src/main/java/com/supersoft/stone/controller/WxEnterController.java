@@ -1,6 +1,5 @@
 package com.supersoft.stone.controller;
 
-import com.supersoft.comm.WXConfig;
 import com.supersoft.stone.pojo.ReceiveXmlBean;
 import com.supersoft.stone.service.WxProcessService;
 import org.dom4j.Document;
@@ -18,14 +17,12 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import java.security.MessageDigest;
-import java.util.Arrays;
 import java.util.Iterator;
 
 /**
- * @author guanjunpu
+ * @author 关军浦
  * @date 2015-10-26
- * @description Entry of WX
+ * @description 微信公众平台被动消息入口
  */
 @Controller
 @RequestMapping("/api/wxEnter")

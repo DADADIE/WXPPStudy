@@ -1,5 +1,6 @@
-package com.supersoft.comm;
+package com.supersoft.comm.config;
 
+import com.supersoft.comm.utils.Utils;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
