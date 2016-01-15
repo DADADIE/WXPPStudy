@@ -1,11 +1,11 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Tomcat7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.62" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
-    <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+  <configuration default="false" name="Tomcat7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.64" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+    <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/stone/api/wxEnter/index" />
     <option name="UPDATING_POLICY" value="restart-server" />
     <deployment>
       <artifact name="stone:war">
         <settings>
-          <option name="CONTEXT_PATH" value="/" />
+          <option name="CONTEXT_PATH" value="/stone" />
         </settings>
       </artifact>
     </deployment>

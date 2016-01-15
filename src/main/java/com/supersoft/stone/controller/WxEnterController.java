@@ -25,7 +25,7 @@ import java.util.Iterator;
  * @description 微信公众平台被动消息入口
  */
 @Controller
-@RequestMapping("/api/wxEnter")
+@RequestMapping("api/wxEnter")
 public class WxEnterController {
 
 	@Resource
