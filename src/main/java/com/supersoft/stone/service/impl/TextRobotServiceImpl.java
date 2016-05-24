@@ -22,7 +22,7 @@ public class TextRobotServiceImpl implements RobotService {
     @Override
     public String getXmlResponse(ReceiveXmlBean xmlBean) {
         /**获取处理结果串**/
-        String result = "一块有梦想的石头到底能走多远---吃饭四人组。";
+        String result = "一块有梦想的石头到底能走多远---坚持之道。";
         return formatXmlAnswer(xmlBean.getFromUserName(), xmlBean.getToUserName(),result);
     }
 
